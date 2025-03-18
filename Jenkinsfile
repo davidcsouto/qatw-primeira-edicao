@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker{
-            image 'papitodev/playwright-nj-v1.50.1-noble'
+            image 'davidsouto/playwright-nj-v1.50.1-noble'
             args '--network qatw-primeira-edicao_skynet'
         }
     }
